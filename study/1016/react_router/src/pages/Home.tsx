@@ -1,14 +1,17 @@
-import {FC} from "react";
-import { deflate } from "zlib";
+import { FC } from "react";
+import Counter from "../components/Counter";
 
 type HomeProps = {
-    title?: string;
-}
+  title?: string;
+};
 
-const Home: FC <HomeProps> = ({title}) => {
-    return <p>
-        {title ?? "Home"}
-    </p>;
-}
+const Home: FC<HomeProps> = ({ title }) => {
+  return (
+    <div>
+      <p>{title ?? "Home"}</p>
+      <Counter />
+    </div>
+  );
+};
 
 export default Home;
