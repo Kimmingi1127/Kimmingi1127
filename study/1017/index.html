@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하늘색 게시판</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="board-container">
+        <h1> 자유 게시판 </h1>
+
+        <!-- 글쓰기 폼 -->
+        <div class="post-form">
+            <input type="text" id="author-input" placeholder="작성자">
+            <textarea id="content-input" rows="4" placeholder="내용을 입력하세요..."></textarea>
+            <button id="submit-btn">글쓰기</button>
+        </div>
+
+        <!-- 게시판 옵션 -->
+        <div class="board-options">
+            <select id="posts-per-page-select">
+                <option value="5">5개씩 보기</option>
+                <option value="10">10개씩 보기</option>
+                <option value="15">15개씩 보기</option>
+                <option value="20">20개씩 보기</option>
+            </select>
+        </div>
+
+        <!-- 게시글 목록 -->
+        <div id="posts-container">
+            <!-- 자바스크립트로 게시글이 여기에 추가됩니다. -->
+        </div>
+
+        <!-- 페이지네이션 -->
+        <div id="pagination-container">
+            <!-- 자바스크립트로 페이지 번호가 여기에 추가됩니다. -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
