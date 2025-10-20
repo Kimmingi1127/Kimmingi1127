@@ -1,6 +1,6 @@
 // import http from "http";
 import express from "express";
-import posRoutes from "../routes/post.route.js";
+import posRoutes from "./routes/post.route.js";
 
 const app = express();
 

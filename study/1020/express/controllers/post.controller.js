@@ -13,7 +13,7 @@ export const getPosts = (req, res) => {
 export const getPostById = (req, res) => {
   const post = posts.find((p) => p.id === parseInt(req.params.id));
   if (!post) {
-    res.json = ({ success: false, message: "post not found"});
+    res.status(404).json({ success: false, message: "post not found" });
   } else {
     res.json({ success: true, data: post });
   }
@@ -22,7 +22,7 @@ export const getPostById = (req, res) => {
 // 생성
 export const createPost = (req, res) => {
   const { title, content } = req.body;
-  const newPost = { id: post.length + 1, title, content };
+  const newPost = { id: posts.length + 1, title, content };
   posts.push(newPost);
   res.status(201).json({ success: true, data: newPost });
 };

@@ -1,7 +1,6 @@
 {
   "name": "hello",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -12,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "http": "^0.0.1-security"
-  }
+  },
+  "description": ""
 }

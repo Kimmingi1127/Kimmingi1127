@@ -9,6 +9,7 @@ import http from "http";
 const server = http.createServer((req, res) => {
   if (req.url === "/hello") {
     res.writeHead(200, { "Content-Type": "text/plain; charset=utf-8" });
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
     res.end(JSON.stringify({ message: "Hello Node.js" }));
   } else {
     res.writeHead(404);
