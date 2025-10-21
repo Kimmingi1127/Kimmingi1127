@@ -1,6 +1,6 @@
-// const {MongoClient} = require('mongodb');
-// const uri = "mongodb://localhost:27017";
-// const client = new MongoClient(uri);
+const {MongoClient} = require('mongodb');
+const uri = "mongodb://localhost:27017";
+const client = new MongoClient(uri);
 
 // async function run() {
 //   await client.connect();
@@ -29,6 +29,9 @@ async function main() {
         await collection.updateOne({name: "Andy"}, {$set: {age: 31}});
         console.log("document updated");
 
+        const updatedDocuments = await collection.find({name: "Andy"}).toArray();
+        console.log("업데이트된 document", updatedDocuments);
+
         await collection.deleteOne({name: "Andy"});
         console.log("document deleted");
 
@@ -37,3 +40,8 @@ async function main() {
         
     }
 }
+
+main()
+  .then(console.log)
+  .catch(console.error)
+  .finally(() => client.close());
