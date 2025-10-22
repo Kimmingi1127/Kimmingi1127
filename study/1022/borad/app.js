@@ -22,6 +22,19 @@ app.get("/", (req, res) => {
   res.render("home", { title: "테스트 게시판" });
 });
 
+app.get("/", async (req, res) => {
+    const page = parseInt(req.query.page) || 1;
+    const search = req.query.search || "";
+
+    try {
+        const [posts, paginator] = await postService.list(collection, page, search);
+        res.render("home", { title: "테스트 게시판",search, paginator, posts, });
+    } catch (error) {
+        console.error(error);
+        res.render("home", { title: "테스트 게시판" });
+    }
+});
+
 app.get("/write", (req, res) => {
   res.render("write", { title: "테스트 게시판" });
 });
