@@ -10,10 +10,10 @@ Content-Type: application/json
 }
 
 ### Get user
-GET {{server}}/getUser/elly@abc.com
+GET {{server}}/getUser/elly2@abc.com
 
 ### update
-PUT {{server}}/update/elly@abc.com
+PUT {{server}}/update/elly2@abc.com
 Content-Type: application/json
 
 {
