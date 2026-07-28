@@ -8,7 +8,7 @@
 - SSE·WebSocket을 활용한 실시간 기능 구현 경험
 - 팀장·백엔드 리드 및 다직군 협업 경험
 
-[Portfolio]() · [Email]()
+[Portfolio](https://app.notion.com/p/Java-Backend-Developer-Portfolio-3aac9357a59881749fadf5e3d2e411c7?source=copy_link) · [Email](nimnkey01@gmail.com)
 
 ---
 
@@ -51,7 +51,7 @@
 
 `Java 21` `Spring Boot` `Spring Security` `MySQL` `Redis` `OpenFeign` `SSE`
 
-[Repository]() · [상세 포트폴리오]()
+[Repository](https://github.com/Kimmingi1127/pop-con-backend) · [상세 포트폴리오](https://app.notion.com/p/Pop-Con-OAuth-SSE-3aac9357a5988129bd7af3e0c511b6e6)
 
 ---
 
@@ -70,7 +70,7 @@
 
 `Spring Boot` `Spring Security` `JPA` `MySQL` `Redis` `WebSocket` `AWS S3`
 
-[Repository]() · [상세 포트폴리오]()
+[Repository](https://github.com/Kimmingi1127/spring_be) · [상세 포트폴리오](https://app.notion.com/p/TechUp-Challenger-Hub-3aac9357a59881f69154dace7c27cee2)
 
 ---
 
@@ -88,7 +88,7 @@
 
 `Kotlin` `Android` `Python` `GPT API` `TF-IDF` `Cosine Similarity`
 
-[Android Repository]() · [AI Repository]() · [상세 포트폴리오]()
+[Android Repository](https://github.com/malharang/Malharang-And) · [상세 포트폴리오](https://app.notion.com/p/AI-3aac9357a59881ebac17ef566a377e87)
 
 ---
 
@@ -109,5 +109,5 @@
 
 ## 📫 Contact
 
-- Email: `zxc12250@naver.com`
+- Email: `nimnkey01@gmail.com`
 - Portfolio: [바로가기](https://app.notion.com/p/Java-Backend-Developer-Portfolio-3aac9357a59881749fadf5e3d2e411c7?source=copy_link)
