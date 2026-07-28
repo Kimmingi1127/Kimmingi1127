@@ -8,7 +8,8 @@
 - SSE·WebSocket을 활용한 실시간 기능 구현 경험
 - 팀장·백엔드 리드 및 다직군 협업 경험
 
-[Portfolio](https://app.notion.com/p/Java-Backend-Developer-Portfolio-3aac9357a59881749fadf5e3d2e411c7?source=copy_link) · [Email](nimnkey01@gmail.com)
+- [Portfolio](https://app.notion.com/p/Java-Backend-Developer-Portfolio-3aac9357a59881749fadf5e3d2e411c7?source=copy_link) 
+- E-mail: nimnkey01@gmail.com
 
 ---
 
